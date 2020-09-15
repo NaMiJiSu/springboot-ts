@@ -1,0 +1,301 @@
+2020-08-28 09:30:29.212  INFO 16079 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16079 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 09:30:29.236 DEBUG 16079 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 09:30:29.237  INFO 16079 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 09:30:30.606  INFO 16079 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 09:30:30.630  INFO 16079 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 09:30:30.631  INFO 16079 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 09:30:30.723  INFO 16079 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 09:30:30.723  INFO 16079 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1361 ms
+2020-08-28 09:30:30.826  INFO 16079 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 09:30:49.952  INFO 16079 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 09:30:50.334  INFO 16079 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:30:50.392  INFO 16079 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 09:30:50.570  INFO 16079 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 09:30:50.580  INFO 16079 --- [main] com.ts.TsApplication                     : Started TsApplication in 22.535 seconds (JVM running for 23.634)
+2020-08-28 09:31:35.539  INFO 16079 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 09:31:35.545  INFO 16079 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 09:31:35.545  INFO 16079 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 09:31:35.553  INFO 16079 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-28 09:31:40.796 DEBUG 16079 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE tel = ?
+2020-08-28 09:31:40.796 DEBUG 16079 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE tel = ?
+2020-08-28 09:31:40.963 DEBUG 16079 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 3424324(String)
+2020-08-28 09:31:40.963 DEBUG 16079 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 3424324(String)
+2020-08-28 09:31:41.242 TRACE 16079 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 09:31:41.242 TRACE 16079 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 09:31:41.243 TRACE 16079 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 09:31:41.243 TRACE 16079 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 09:31:41.246 DEBUG 16079 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 1
+2020-08-28 09:31:41.246 DEBUG 16079 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 1
+2020-08-28 09:31:57.157 DEBUG 16079 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE tel = ?
+2020-08-28 09:31:57.157 DEBUG 16079 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 3424324(String)
+2020-08-28 09:31:57.429 TRACE 16079 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 09:31:57.429 TRACE 16079 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 09:31:57.431 DEBUG 16079 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 1
+2020-08-28 09:32:26.482  INFO 16079 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:32:26.483  INFO 16079 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 09:32:26.491  INFO 16079 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 09:32:32.014  INFO 16166 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16166 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 09:32:32.025 DEBUG 16166 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 09:32:32.027  INFO 16166 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 09:32:33.541  INFO 16166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 09:32:33.549  INFO 16166 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 09:32:33.550  INFO 16166 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 09:32:33.628  INFO 16166 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 09:32:33.628  INFO 16166 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2020-08-28 09:32:33.719  INFO 16166 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 09:32:52.419  INFO 16166 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 09:32:52.804  INFO 16166 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:32:52.861  INFO 16166 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 09:32:53.039  INFO 16166 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 09:32:53.050  INFO 16166 --- [main] com.ts.TsApplication                     : Started TsApplication in 21.89 seconds (JVM running for 23.058)
+2020-08-28 09:33:12.975  INFO 16166 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 09:33:12.981  INFO 16166 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 09:33:12.982  INFO 16166 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 09:33:12.987  INFO 16166 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-08-28 09:33:13.051 DEBUG 16166 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE address = ?
+2020-08-28 09:33:13.157 DEBUG 16166 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: cdscsfsrf(String)
+2020-08-28 09:33:13.433 TRACE 16166 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 09:33:13.433 TRACE 16166 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 09:33:13.436 DEBUG 16166 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 1
+2020-08-28 09:33:41.149  INFO 16166 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:33:41.150  INFO 16166 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 09:33:41.157  INFO 16166 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 09:33:46.238  INFO 16175 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16175 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 09:33:46.241 DEBUG 16175 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 09:33:46.247  INFO 16175 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 09:33:47.635  INFO 16175 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 09:33:47.644  INFO 16175 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 09:33:47.645  INFO 16175 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 09:33:47.722  INFO 16175 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 09:33:47.722  INFO 16175 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2020-08-28 09:33:47.825  INFO 16175 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 09:34:08.296  INFO 16175 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 09:34:08.709  INFO 16175 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:34:08.776  INFO 16175 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 09:34:08.958  INFO 16175 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 09:34:08.970  INFO 16175 --- [main] com.ts.TsApplication                     : Started TsApplication in 23.478 seconds (JVM running for 24.426)
+2020-08-28 09:35:37.226  INFO 16175 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 09:35:37.232  INFO 16175 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 09:35:37.233  INFO 16175 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 09:35:37.239  INFO 16175 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-28 09:35:37.705 DEBUG 16175 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 09:35:37.828 DEBUG 16175 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: null
+2020-08-28 09:35:38.228 DEBUG 16175 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 0
+2020-08-28 09:35:59.456  INFO 16175 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:35:59.466  INFO 16175 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 09:35:59.478  INFO 16175 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 09:36:10.266  INFO 16183 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16183 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 09:36:10.290 DEBUG 16183 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 09:36:10.291  INFO 16183 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 09:36:11.509  INFO 16183 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 09:36:11.517  INFO 16183 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 09:36:11.518  INFO 16183 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 09:36:11.592  INFO 16183 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 09:36:11.593  INFO 16183 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+2020-08-28 09:36:11.681  INFO 16183 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 09:36:32.048  INFO 16183 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 09:36:32.449  INFO 16183 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:36:32.511  INFO 16183 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 09:36:32.712  INFO 16183 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 09:36:32.723  INFO 16183 --- [main] com.ts.TsApplication                     : Started TsApplication in 23.301 seconds (JVM running for 24.829)
+2020-08-28 09:36:36.192  INFO 16183 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 09:36:36.197  INFO 16183 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 09:36:36.197  INFO 16183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 09:36:36.203  INFO 16183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-28 09:36:36.265 DEBUG 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 09:36:36.367 DEBUG 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 09:36:36.640 TRACE 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 09:36:36.641 TRACE 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, lisi, 1, 123456, adawdaw
+2020-08-28 09:36:36.643 TRACE 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 09:36:36.643 TRACE 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 09:36:36.643 TRACE 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 09:36:36.644 DEBUG 16183 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 09:36:45.958  INFO 16183 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 09:36:45.959  INFO 16183 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 09:36:45.978  INFO 16183 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 10:15:22.683  INFO 16234 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16234 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 10:15:22.688 DEBUG 16234 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 10:15:22.689  INFO 16234 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 10:15:24.257  INFO 16234 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 10:15:24.265  INFO 16234 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 10:15:24.266  INFO 16234 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 10:15:24.340  INFO 16234 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 10:15:24.341  INFO 16234 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1557 ms
+2020-08-28 10:15:24.429  INFO 16234 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 10:15:43.577  INFO 16234 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 10:15:43.959  INFO 16234 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:15:44.025  INFO 16234 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 10:15:44.203  INFO 16234 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 10:15:44.213  INFO 16234 --- [main] com.ts.TsApplication                     : Started TsApplication in 21.978 seconds (JVM running for 22.992)
+2020-08-28 10:15:45.136  INFO 16234 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 10:15:45.141  INFO 16234 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 10:15:45.142  INFO 16234 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 10:15:45.148  INFO 16234 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-28 10:15:46.800 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:15:46.906 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:15:47.444 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:23:57.675 DEBUG 16234 --- [http-nio-8080-exec-9] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:23:57.676 DEBUG 16234 --- [http-nio-8080-exec-9] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:23:58.242 DEBUG 16234 --- [http-nio-8080-exec-9] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:23:58.244 DEBUG 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:23:58.248 DEBUG 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:23:58.561 TRACE 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:23:58.561 TRACE 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:23:58.563 TRACE 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:23:58.563 TRACE 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:23:58.563 TRACE 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:23:58.563 DEBUG 16234 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:23:58.564 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:23:58.565 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:23:58.850 TRACE 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:23:58.851 TRACE 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:23:58.852 TRACE 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:23:58.856 TRACE 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:23:58.857 TRACE 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:23:58.859 DEBUG 16234 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:25:24.629  INFO 16234 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:25:24.630  INFO 16234 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 10:25:24.633  INFO 16234 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 10:25:27.353  INFO 16256 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16256 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 10:25:27.356 DEBUG 16256 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 10:25:27.361  INFO 16256 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 10:25:28.719  INFO 16256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 10:25:28.726  INFO 16256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 10:25:28.727  INFO 16256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 10:25:28.792  INFO 16256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 10:25:28.793  INFO 16256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
+2020-08-28 10:25:28.875  INFO 16256 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 10:25:47.644  INFO 16256 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 10:25:48.038  INFO 16256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:25:48.097  INFO 16256 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 10:25:48.279  INFO 16256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 10:25:48.291  INFO 16256 --- [main] com.ts.TsApplication                     : Started TsApplication in 21.543 seconds (JVM running for 22.518)
+2020-08-28 10:25:59.099  INFO 16256 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 10:25:59.106  INFO 16256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 10:25:59.106  INFO 16256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 10:25:59.114  INFO 16256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-28 10:25:59.176 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:25:59.347 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:25:59.621 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:25:59.621 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:25:59.623 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:25:59.624 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:25:59.624 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:25:59.624 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:26:00.231 DEBUG 16256 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:26:00.235 DEBUG 16256 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:26:00.806 DEBUG 16256 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:26:00.989 DEBUG 16256 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:26:00.990 DEBUG 16256 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:26:01.578 DEBUG 16256 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:26:10.447 DEBUG 16256 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:26:10.448 DEBUG 16256 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:26:11.003 DEBUG 16256 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:26:12.069 DEBUG 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:26:12.069 DEBUG 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:26:12.161 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:26:12.162 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:26:12.352 TRACE 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:26:12.353 TRACE 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:26:12.356 TRACE 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:26:12.357 TRACE 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:26:12.358 TRACE 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:26:12.358 DEBUG 16256 --- [http-nio-8080-exec-10] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:26:12.426 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:26:12.427 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:26:12.427 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:26:12.428 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:26:12.429 TRACE 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:26:12.429 DEBUG 16256 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:27:10.248  INFO 16256 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:27:10.249  INFO 16256 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 10:27:10.256  INFO 16256 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 10:27:13.030  INFO 16271 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16271 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 10:27:13.033 DEBUG 16271 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 10:27:13.039  INFO 16271 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 10:27:14.374  INFO 16271 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 10:27:14.382  INFO 16271 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 10:27:14.382  INFO 16271 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 10:27:14.449  INFO 16271 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 10:27:14.449  INFO 16271 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1271 ms
+2020-08-28 10:27:14.538  INFO 16271 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 10:27:33.331  INFO 16271 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 10:27:33.722  INFO 16271 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:27:33.782  INFO 16271 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 10:27:33.962  INFO 16271 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 10:27:33.973  INFO 16271 --- [main] com.ts.TsApplication                     : Started TsApplication in 21.555 seconds (JVM running for 22.486)
+2020-08-28 10:28:53.160  INFO 16271 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 10:28:53.165  INFO 16271 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 10:28:53.166  INFO 16271 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 10:28:53.174  INFO 16271 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-28 10:28:53.499 DEBUG 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:28:53.625 DEBUG 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:28:53.960 TRACE 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:28:53.960 TRACE 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:28:53.962 TRACE 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:28:53.962 TRACE 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:28:53.962 TRACE 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:28:53.962 DEBUG 16271 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:28:54.529 DEBUG 16271 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:28:54.533 DEBUG 16271 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:28:55.111 DEBUG 16271 --- [http-nio-8080-exec-5] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:28:55.482 DEBUG 16271 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:28:55.483 DEBUG 16271 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:28:56.093 DEBUG 16271 --- [http-nio-8080-exec-6] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:29:42.674 DEBUG 16271 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =? where id = ?
+2020-08-28 10:29:42.674 DEBUG 16271 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 1(String)
+2020-08-28 10:29:43.301 DEBUG 16271 --- [http-nio-8080-exec-7] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:29:44.071 DEBUG 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:29:44.072 DEBUG 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:29:44.330 TRACE 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:29:44.331 TRACE 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 123456, adawdaw
+2020-08-28 10:29:44.331 TRACE 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:29:44.332 TRACE 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:29:44.332 TRACE 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:29:44.333 DEBUG 16271 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 10:33:05.796  INFO 16271 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:33:05.805  INFO 16271 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 10:33:05.812  INFO 16271 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-28 10:33:08.447  INFO 16305 --- [main] com.ts.TsApplication                     : Starting TsApplication on zyls-MBP.lan with PID 16305 (/Users/zylzyl/Desktop/github-springbbot/ts/target/classes started by zylzyl in /Users/zylzyl/Desktop/github-springbbot/ts)
+2020-08-28 10:33:08.450 DEBUG 16305 --- [main] com.ts.TsApplication                     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-28 10:33:08.450  INFO 16305 --- [main] com.ts.TsApplication                     : No active profile set, falling back to default profiles: default
+2020-08-28 10:33:09.993  INFO 16305 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-28 10:33:10.001  INFO 16305 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-28 10:33:10.002  INFO 16305 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-28 10:33:10.077  INFO 16305 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-28 10:33:10.077  INFO 16305 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2020-08-28 10:33:10.161  INFO 16305 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-08-28 10:33:29.196  INFO 16305 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-28 10:33:29.606  INFO 16305 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 10:33:29.665  INFO 16305 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-28 10:33:29.840  INFO 16305 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-28 10:33:29.851  INFO 16305 --- [main] com.ts.TsApplication                     : Started TsApplication in 21.836 seconds (JVM running for 22.843)
+2020-08-28 10:33:36.609  INFO 16305 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1597989051,1598484404; Idea-7148a704=6206a68b-b3de-4b9e-bac5-ab0ea619272f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-28 10:33:36.615  INFO 16305 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-28 10:33:36.615  INFO 16305 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-28 10:33:36.621  INFO 16305 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-28 10:33:36.670 DEBUG 16305 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =?, tel = ? where id = ?
+2020-08-28 10:33:36.775 DEBUG 16305 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 31233434(String), 1(String)
+2020-08-28 10:33:37.592 DEBUG 16305 --- [http-nio-8080-exec-1] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:33:43.871 DEBUG 16305 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.Empupper    : ==>  Preparing: update emp SET name =?, tel = ? where id = ?
+2020-08-28 10:33:43.872 DEBUG 16305 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.Empupper    : ==> Parameters: shashini(String), 31233434(String), 1(String)
+2020-08-28 10:33:44.520 DEBUG 16305 --- [http-nio-8080-exec-2] com.ts.mapper.EmployeeMapper.Empupper    : <==    Updates: 1
+2020-08-28 10:33:45.138 DEBUG 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : ==>  Preparing: select * from emp WHERE sex = ?
+2020-08-28 10:33:45.143 DEBUG 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : ==> Parameters: 1(String)
+2020-08-28 10:33:45.451 TRACE 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==    Columns: id, name, sex, tel, address
+2020-08-28 10:33:45.452 TRACE 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 1, shashini, 1, 31233434, adawdaw
+2020-08-28 10:33:45.454 TRACE 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 2, zhangsan, 1, , cawdawda
+2020-08-28 10:33:45.454 TRACE 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 3, ddawda, 1, 2333333, dfsfrsgdfrsf
+2020-08-28 10:33:45.454 TRACE 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==        Row: 4, dwadw, 1, 3424324, cdscsfsrf
+2020-08-28 10:33:45.455 DEBUG 16305 --- [http-nio-8080-exec-4] com.ts.mapper.EmployeeMapper.dddd        : <==      Total: 4
+2020-08-28 12:33:23.929  INFO 16305 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 12:33:23.931  INFO 16305 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-28 12:33:23.932  INFO 16305 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
